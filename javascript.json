@@ -14,7 +14,7 @@
     // }
 
     "Express boilerplate": {
-        "prefix": "expboil",
+        "prefix": "expressboil",
         "body": [
             "const express = require('express');",
             "const app = express()\n",
@@ -30,7 +30,7 @@
     },
 
     "Mongoose class": {
-        "prefix": "mongclass",
+        "prefix": "mongooseclass",
         "body": [
             "const mongoose = require('mongoose');\n",
             "const ${1:kitten}Schema = new mongoose.Schema({",
