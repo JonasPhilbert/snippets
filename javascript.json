@@ -37,6 +37,7 @@
             "\t${0:name: String,\n\tlives: Number,\n\tbirthdate: {type: Date, default: Date.now\\}}",
             "});\n",
             "module.exports = mongoose.model('${2:Kitten}', ${1:kitten}Schema);"
-        ]
+        ],
+        "description": "Mongoose class as a module."
     }
 }
